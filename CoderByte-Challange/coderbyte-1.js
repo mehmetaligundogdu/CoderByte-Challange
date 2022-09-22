@@ -11,7 +11,7 @@ export const userValidation=function(string){
         string.length>=4 && string.length<=25 //first condition
         && (/[a-zA-Z]/).test(string.charAt(0)) //second condition , (/[a-zA-Z]/) stringin ilk indexinin sadece büyük-küçük harf içereceğini test eder.
         && (/^\w+$/).test(string)// (/^\w+$/) regular expressionu, stringin saddece harf-numara ve alt çizgi"_"den oluşur anlamına gelir.
-        && (/[a-zA-Z0-9]/).test(string.slice(-1)) //yukarda charAt(0) ile stringin1.indexini aldık fakat string length'ini bilmiyorsak, son indexi için slice(-1) kullanırız. "string.charAt(string.length-1)"
+        && (/[a-zA-Z0-9]/).test(string.slice(-1)) //yukarda charAt(0) ile stringin 1.indexini aldık fakat string length'ini bilmiyorsak, son indexi için slice(-1) kullanırız. Ya da "string.charAt(string.length-1)"
     ){
         return true;
     }

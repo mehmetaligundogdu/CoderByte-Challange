@@ -1,5 +1,5 @@
 // ****************************First Factorial******************************************
-//Using the Js language, have the function firstFactorial(num) take num parameter being pased and return the factorial of it (ie.)
+//Using the Js language, have the function firstFactorial(num) take num parameter being pased and return the factorial of it (ie.(örneğin)) 
 //if num=4, return(4*3*2*1). For the test cases,the range will be between 1 and 18.
 
 export const firstFactorial=function(num){

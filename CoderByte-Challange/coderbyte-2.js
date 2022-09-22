@@ -18,6 +18,6 @@ export const longestWord=function (sen){
 
 //Kelimeleri boşluklardan split edip bir Array oluşturmak.
 
-//Oluşan Arrayı , kelimelerin karakter sayılarına göre büyükten küçüğe sıralamak (.sort() metodu) Sort; string array elemanlarının baş haflerini alfabetik olarak sıralar.Burda kelimelerin .length ini yani bir say kullanacağız. O sebeple .sort bir function olur.
+//Oluşan Arrayı , kelimelerin karakter sayılarına göre büyükten küçüğe sıralamak (.sort() metodu) Sort; string array elemanlarının baş haflerini alfabetik olarak sıralar.Burda kelimelerin .length ini yani bir sayı kullanacağız. O sebeple .sort bir function olur.
 
 //En uzun kelimeyi (0.index) return etmek.
