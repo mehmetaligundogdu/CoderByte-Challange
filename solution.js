@@ -21,4 +21,10 @@ import { MaxSubarray } from "./CoderByte-Challange/coderbyte-MaxSubArray.js";
 // console.log(MaxSubarray([-2,5,-1,7,-3]));
 
 import { StepWalking } from "./CoderByte-Challange/coderbyte-StepWalking.js";
-console.log(StepWalking(8));
+// console.log(StepWalking(8));
+
+import { AlphabetSoup } from "./CoderByte-Challange/coderbyte-AlphabetSoup.js";
+// console.log(AlphabetSoup("hello"));
+
+import { ArithGeoII } from "./CoderByte-Challange/coderbyte-ArithGeoII.js";
+console.log(ArithGeoII([2,6,18,54]));

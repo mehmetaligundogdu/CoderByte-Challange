@@ -19,5 +19,5 @@ export function FizzBuzz(num){
 
 
 //1-50 arasında verilecek olan numaralardan;
-//for döngüsü ile 1den (num) a kadar tüm sayıları test edip yazdırırız.
-//15 (3 ve 5'in ortak katı) ile bölünebilenlere "FizzBuzz" yazacak. İf döngüzünde de ilk önce 15 ile bölünebilmeyi kuralını yazacağız. Kodlar yukarıdan aşağıya derlendiği için, eğer 5 ile bölünebilme kuralını başa yazarsak 15 ile bölünenlerde önce 5 ile bölünme kuralı işleyeceğinden dolayı "Buzz" yazacak ve 15 ilw bölünme kuralı hiç işlemeyecektir.
+//for döngüsü ile 1den (num) a kadar tüm sayıları test edip döneriz.
+//15 (3 ve 5'in ortak katı) ile bölünebilenlere "FizzBuzz" yazacak. İf döngüzünde de ilk önce 15 ile bölünebilmeyi kuralını yazacağız. Kodlar yukarıdan aşağıya derlendiği için, eğer 5 ile bölünebilme kuralını başa yazarsak 15 ile bölünenlerde önce 5 ile bölünme kuralı işleyeceğinden dolayı "Buzz" yazacak ve 15 ile bölünme kuralı hiç işlemeyecektir.
