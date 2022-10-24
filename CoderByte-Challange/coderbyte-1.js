@@ -6,7 +6,7 @@
 If the username is valid then your program should return the string true
 */
 
-export const userValidation=function(string){
+export function userValidation(string){
     if(
         string.length>=4 && string.length<=25 //first condition
         && (/[a-zA-Z]/).test(string.charAt(0)) //second condition , (/[a-zA-Z]/) stringin ilk indexinin sadece büyük-küçük harf içereceğini test eder.
